@@ -4,9 +4,9 @@ import {
   Router as SolidRouter,
   RoutesProps,
 } from "solid-app-router";
-import { Home } from "../../pages/Home/Home";
-import { CSRF } from "../../pages/CSRF/CSRF";
-import { XSS } from "../../pages/XSS/XSS";
+import { Home } from "../../../pages/Home/Home";
+import { CSRF } from "../../../pages/CSRF/CSRF";
+import { XSS } from "../../../pages/XSS/XSS";
 
 export function Router(props: Omit<RoutesProps, "children">) {
   return (

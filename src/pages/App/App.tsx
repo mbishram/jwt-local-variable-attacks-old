@@ -1,8 +1,13 @@
 import type { Component } from "solid-js";
-import { Router } from "../../components/Router/Router";
+import { Router } from "../../components/ui/Router/Router";
+import { MainLayout } from "../../components/layouts/MainLayout/MainLayout";
 
 const App: Component = () => {
-  return <Router />;
+  return (
+    <MainLayout>
+      <Router />
+    </MainLayout>
+  );
 };
 
 export default App;
