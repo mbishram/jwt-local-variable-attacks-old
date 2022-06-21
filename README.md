@@ -1,3 +1,4 @@
+**Abandoned**, Forgot that I can't create an API on client, back to NextJS
 # JWT Local Variable Attacks
 XSS script and CSRF website to test against jwt-local-variable repo.
 
